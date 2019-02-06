@@ -162,12 +162,12 @@ api.info()
 
 ```
 api.info("word2vec-google-news-300")
-```{{1}}
+```
 
 
 ```
 api.load("wiki-en", return_path=True)
-```{{2}}
+```
 
 
 `@part2`
@@ -181,7 +181,7 @@ Retrieves information about all available datasets and models.
  'num_records': 3000000,
  'parameters': {'dimension': 300},
  'parts': 1,
-}{{1}}
+}
 
 Downloads the dataset or model
 

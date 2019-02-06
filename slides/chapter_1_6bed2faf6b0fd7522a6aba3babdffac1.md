@@ -124,7 +124,7 @@ model = api.load("word2vec-google-news-300")
 
 
 `@script`
-
+Gensim library also has its own data repository where they store datasets and popular pre-trained models. If you would like to load one of the gensim data repository model, we have to first import the gensim.downloader module. And then, we can call the load method by passing the name of the model which we are interested to load.
 
 
 ---

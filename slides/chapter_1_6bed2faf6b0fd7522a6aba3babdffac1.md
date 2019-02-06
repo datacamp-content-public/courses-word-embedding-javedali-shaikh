@@ -69,7 +69,7 @@ key: "58c79c1c80"
 ```
 
 `@part1`
-Efficient then using a full model like Word2Vec class in gensim
+Supports multiple embeddings like Word2Vec, FastText etc.
 
 Advantages:
 Faster load
@@ -86,16 +86,36 @@ _https://radimrehurek.com/gensim/models/keyedvectors.html_
 
 
 ---
-## load_word2vec_format
+## load_word2vec_format()
 
 ```yaml
 type: "FullCodeSlide"
 key: "718d045990"
+center_content: false
 ```
 
 `@part1`
 `model = gensim.models.KeyedVectors.load_word2vec_format
          ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)`
+
+
+`@script`
+
+
+
+---
+## api.load()
+
+```yaml
+type: "FullSlide"
+key: "ce3611842b"
+center_content: false
+```
+
+`@part1`
+Can load pre-trained models present in gensim data repository
+
+`model = api.load("glove-wiki-gigaword-100")`
 
 
 `@script`

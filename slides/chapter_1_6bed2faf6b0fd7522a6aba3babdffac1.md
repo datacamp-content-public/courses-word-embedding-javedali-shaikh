@@ -153,6 +153,7 @@ model = api.load("word2vec-google-news-300")
 ```yaml
 type: "TwoColumns"
 key: "d8dfcbc853"
+center_content: true
 ```
 
 `@part1`

@@ -84,17 +84,18 @@ key: "6c3436ae32"
 ```yaml
 type: "FullSlide"
 key: "58c79c1c80"
+center_content: false
 ```
 
 `@part1`
-Supports multiple embeddings like Word2Vec, FastText etc.
+- Supports multiple embeddings like Word2Vec, FastText etc.
 
-Advantages:
-Faster load
-Smaller objects
-Concurrency
-Shared RAM
-etc.
+- Advantages:
+
+   - Faster load
+   - Smaller objects
+   - Concurrency
+   - Shared RAM and etc.
 
 For more info: _https://radimrehurek.com/gensim/models/keyedvectors.html_
 
@@ -109,12 +110,14 @@ For more info: _https://radimrehurek.com/gensim/models/keyedvectors.html_
 ```yaml
 type: "FullCodeSlide"
 key: "718d045990"
-center_content: false
+center_content: true
 ```
 
 `@part1`
-`model = gensim.models.KeyedVectors.load_word2vec_format
-         ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)`
+```
+model = gensim.models.KeyedVectors.load_word2vec_format
+         ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)
+```
 
 
 `@script`
@@ -133,9 +136,11 @@ center_content: false
 `@part1`
 Can load pre-trained models present in gensim data repository
 
-`import gensim.downloader as api`
+```
+import gensim.downloader as api
 
-`model = api.load("word2vec-google-news-300")`
+model = api.load("word2vec-google-news-300")
+```
 
 
 `@script`

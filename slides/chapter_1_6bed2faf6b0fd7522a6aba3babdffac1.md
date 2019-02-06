@@ -29,9 +29,9 @@ key: "137cf4178b"
 ```
 
 `@part1`
-Trained on large corpus like wikipedia, web                            
+- Trained on large corpus like wikipedia, web                            
 
-Created for multiple languages - EN, FR, ZH etc.
+- Created for multiple languages - EN, FR, ZH etc.
 
 
 `@script`
@@ -95,7 +95,7 @@ Concurrency
 Shared RAM
 etc.
 
-_https://radimrehurek.com/gensim/models/keyedvectors.html_
+For more info: _https://radimrehurek.com/gensim/models/keyedvectors.html_
 
 
 `@script`

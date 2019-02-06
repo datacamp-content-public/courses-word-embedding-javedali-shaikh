@@ -153,7 +153,7 @@ model = api.load("word2vec-google-news-300")
 ```yaml
 type: "TwoColumns"
 key: "d8dfcbc853"
-center_content: true
+center_content: false
 ```
 
 `@part1`
@@ -176,6 +176,7 @@ Retrieves information about all available datasets and models.
 ```yaml
 type: "TwoColumns"
 key: "1d7adaafb8"
+disable_transition: true
 ```
 
 `@part1`
@@ -206,6 +207,7 @@ api.info("word2vec-google-news-300")
 ```yaml
 type: "TwoColumns"
 key: "2a1b741c3e"
+disable_transition: true
 ```
 
 `@part1`

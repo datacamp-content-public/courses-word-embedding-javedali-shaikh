@@ -55,7 +55,7 @@ key: "f1000300fa"
 
 
 `@script`
-So, Why to use them? Often the pre-trained models are trained on generic datasets like Wikipedia, and they work very well for many NLP tasks, like Natural Language Understanding, text classification etc. So, you can load a model and then apply it to multiple NLP task, and see good results. Also, training from scratch will take a lot of time like days, and also requires omplex set up like GPUs. So, let's see, how to load one of the pre-trained models.
+So, Why to use them? Often the pre-trained models are trained on generic datasets like Wikipedia, and they work very well for many NLP tasks, like Natural Language Understanding, text classification etc. So, you can load a model and then apply it to multiple NLP task, and see good results. Also, training from scratch will take a lot of time like days, and also requires complex set up like GPUs. So, let's see, how to load one of the pre-trained models.
 
 
 ---

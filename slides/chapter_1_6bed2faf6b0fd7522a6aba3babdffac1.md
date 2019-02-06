@@ -39,6 +39,28 @@ Created for multiple languages - EN, FR, ZH etc.
 
 
 ---
+## Popular pre-trained models
+
+```yaml
+type: "FullSlide"
+key: "6c3436ae32"
+```
+
+`@part1`
+1. GoogleNews-vectors-Negative-300 
+
+      - Trained on Google news, 300D (Dimension)
+
+2. glove.6B
+
+      - Trained on wikipedia and Gigaword, 50D, 100D, 200D and 300D.
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml

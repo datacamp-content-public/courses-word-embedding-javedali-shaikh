@@ -101,7 +101,7 @@ model = gensim.models.KeyedVectors.load_word2vec_format
 
 
 `@script`
-
+KeyedVectors have a method called 'load_word2vec_format'. If you want to load a pre-trained model, you have to first download it to your local machine. Once the model is downloaded, we can call the load_word2vec_format and pass the file path of the model as the first parameter. The second parameter indicates whether the model is binary or in text format. If it is binary we set it to true else false.
 
 
 ---

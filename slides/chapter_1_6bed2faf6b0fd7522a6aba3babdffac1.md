@@ -49,7 +49,7 @@ key: "f1000300fa"
 `@part1`
 - Often models trained on generic datasets like wikipedia, works well for many scenarios.
 
-- Training from scratch could take a lot of time and requires complex machine set up like GPUs.
+- Training from scratch could take a lot of time and requires complex machine set up like GPUs.{{1}}
 
 
 `@script`
@@ -69,7 +69,7 @@ key: "6c3436ae32"
 
       - Trained on Google news, 300D (Dimension)
 
-2. glove-wiki-gigaword-100
+2. glove-wiki-gigaword-100{{1}}
 
       - Trained on wikipedia, 100D
 
@@ -90,14 +90,14 @@ center_content: false
 `@part1`
 - Supports multiple embeddings like Word2Vec, FastText etc.
 
-- Advantages:
+- Advantages: {{1}}
 
    - Faster load
    - Smaller objects
    - Concurrency
    - Shared RAM and etc.
 
-_For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_
+_For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_ {{2}}
 
 
 `@script`
@@ -117,7 +117,7 @@ center_content: true
 ```
 model = gensim.models.KeyedVectors.load_word2vec_format
          ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)
-```
+```{{1}}
 
 
 `@script`
@@ -140,7 +140,7 @@ Can load pre-trained models present in gensim data repository
 import gensim.downloader as api
 
 model = api.load("word2vec-google-news-300")
-```
+```{{1}}
 
 
 `@script`
@@ -162,12 +162,12 @@ api.info()
 
 ```
 api.info("word2vec-google-news-300")
-```
+```{{1}}
 
 
 ```
 api.load("wiki-en", return_path=True)
-```
+```{{2}}
 
 
 `@part2`
@@ -181,7 +181,9 @@ Retrieves information about all available datasets and models.
  'num_records': 3000000,
  'parameters': {'dimension': 300},
  'parts': 1,
-}
+}{{1}}
+
+Downloads the dataset or model
 
 
 `@script`

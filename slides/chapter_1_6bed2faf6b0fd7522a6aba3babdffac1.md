@@ -81,7 +81,7 @@ _For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_ {{5}}
 
 
 `@script`
-
+In order to load the pre-traine dmodels, we will be using the Keyed Vectors class in gensim library. this class supports multiple types of word embeddings like word2vec, fasttext etc. Don;t worry id you don;t undertsnadn at this point what is faste and wt is the difere betwe word3 and fast. we will cover this in upcoming chapter. some advanages of this keyed vectors are it loads faster, they keyed vectors are small in size, the vector queries can be made concurrently adn etc. If you want to know more about keyed vectors, please visit the gensim keyedv webapage. keyedvectors ha
 
 
 ---

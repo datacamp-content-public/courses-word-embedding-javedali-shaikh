@@ -213,5 +213,5 @@ key: "80989b47d1"
 ```
 
 `@script`
-
+So, Let's get to some code and see how to load one of the model.
 

@@ -61,6 +61,31 @@ key: "6c3436ae32"
 
 
 ---
+## KeyedVecors
+
+```yaml
+type: "FullSlide"
+key: "58c79c1c80"
+```
+
+`@part1`
+Efficient then using a full model like Word2Vec class in gensim
+
+Advantages:
+Faster load
+Smaller objects
+Concurrency
+Shared RAM
+etc.
+
+_https://radimrehurek.com/gensim/models/keyedvectors.html_
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml

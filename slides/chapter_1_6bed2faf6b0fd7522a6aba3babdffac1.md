@@ -17,7 +17,7 @@ title: Data Scientist
 
 
 `@script`
-
+Hello! Welcome to Chapter 2.1, What are Pre-Trained models? In the first chapter, we studied about word emeddings, their importance and also introduced the Gensim Library. In this chapter, we will focus on Pre-Trained models, why to use them and how to load an existing pre-trained model.
 
 
 ---

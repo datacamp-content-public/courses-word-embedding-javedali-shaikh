@@ -115,7 +115,7 @@ center_content: false
 `@part1`
 Can load pre-trained models present in gensim data repository
 
-`model = api.load("glove-wiki-gigaword-100")`
+`model = api.load("word2vec-google-news-300")`
 
 
 `@script`

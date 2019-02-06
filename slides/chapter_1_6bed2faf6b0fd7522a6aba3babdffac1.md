@@ -47,8 +47,8 @@ key: "f1000300fa"
 ```
 
 `@part1`
-- Often models trained on generic datasets like wiki, works well for many scenarios
-- Training from scratch could take a lot of time.
+- Often models trained on generic datasets like wikipedia, works well for many scenarios
+- Training from scratch could take a lot of time and requires complex machine set up like GPUs.
 
 
 `@script`

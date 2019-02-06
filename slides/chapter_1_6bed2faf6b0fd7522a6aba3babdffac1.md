@@ -147,7 +147,7 @@ Retrieves information about all available datasets and models.
 
 
 `@script`
-Some of the useful methods of Gensim downloader are; api.info(): this will print all the important information available for all the datasets and models in Genism data repository. If you are interested in particular model, just pass the name as the first parameter to info method. This will print important information about the model or dataset. As you can see this print the file size, the dimensions and etc.
+Some of the useful methods of Gensim downloader are; api.info(): this will print all the important information available for all the datasets and models in Genism data repository.
 
 
 ---

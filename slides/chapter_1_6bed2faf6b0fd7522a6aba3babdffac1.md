@@ -37,7 +37,7 @@ key: "137cf4178b"
 
 
 `@script`
-So, What are Pre-Trained models? As the name implies, these models are already trained. These models are made publicly available by researched or companies. Ideally, anyone can make it available. These models are trained on large corpus like wiki, google news or even the web corpus. They are also available for multiple languages like EN, FR, Zh etc. So you can easily find a word2vec pre-trained model preesent for French wikipedia and straight away use it.
+So, What are Pre-Trained models? As the name implies, these models are already trained. These models are made publicly available by researches or companies. Ideally, anyone can make it available. These models are trained on large corpus like Wikipedia, Google News or even the web corpus. They are also available on multiple languages like English, French, Chinese etc. So, you can easily find a word2vec pre-trained model present for French Wikipedia and straight away use it.
 
 
 ---

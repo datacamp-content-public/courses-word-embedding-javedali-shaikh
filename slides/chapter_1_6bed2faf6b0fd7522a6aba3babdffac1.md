@@ -39,6 +39,23 @@ Created for multiple languages - EN, FR, ZH etc.
 
 
 ---
+## Why to use Pre-trained models?
+
+```yaml
+type: "FullSlide"
+key: "f1000300fa"
+```
+
+`@part1`
+- Often models trained on generic datasets like wiki, works well for many scenarios
+- Training from scratch could take a lot of time.
+
+
+`@script`
+
+
+
+---
 ## Popular pre-trained models
 
 ```yaml
@@ -125,15 +142,25 @@ Can load pre-trained models present in gensim data repository
 
 
 ---
-## Insert title here...
+## Useful methods of Gensim Downloader
 
 ```yaml
-type: "FullSlide"
-key: "a3d0cd26c5"
+type: "TwoColumns"
+key: "d8dfcbc853"
 ```
 
 `@part1`
+`api.info()`
 
+`api.info("word2vec-google-news-300")`
+
+`api.load("wiki-en", return_path=True)`
+
+
+`@part2`
+Retrieves information about all available datasets and models.
+
+{}
 
 
 `@script`

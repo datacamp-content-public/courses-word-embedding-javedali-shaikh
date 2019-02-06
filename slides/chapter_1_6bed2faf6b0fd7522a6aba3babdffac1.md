@@ -86,6 +86,23 @@ _https://radimrehurek.com/gensim/models/keyedvectors.html_
 
 
 ---
+## load_word2vec_format
+
+```yaml
+type: "FullCodeSlide"
+key: "718d045990"
+```
+
+`@part1`
+`model = gensim.models.KeyedVectors.load_word2vec_format
+         ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)`
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml

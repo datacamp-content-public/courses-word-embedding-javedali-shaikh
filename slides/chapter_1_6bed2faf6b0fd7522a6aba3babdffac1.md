@@ -178,7 +178,7 @@ api.info("word2vec-google-news-300")
 
 
 `@script`
-
+If you are interested in particular model, just pass the name as the first parameter to info method. This will print important information about the model or dataset. As you can see this print the file size, the dimensions and etc.
 
 
 ---

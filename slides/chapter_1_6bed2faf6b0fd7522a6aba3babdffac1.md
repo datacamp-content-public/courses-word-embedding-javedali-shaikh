@@ -29,9 +29,9 @@ key: "137cf4178b"
 ```
 
 `@part1`
-- Publicly available pre-trained models
+- Publicly available pre-trained models mostly by researchers or companies.
 
-- Trained on large corpus like wikipedia, web.{{1}}
+- Trained on large corpus like wikipedia, Google News, web corpus etc.{{1}}
 
 - Created for multiple languages - EN, FR, ZH etc. {{2}}
 
@@ -49,31 +49,9 @@ key: "f1000300fa"
 ```
 
 `@part1`
-- Often models trained on generic datasets like wikipedia, works well for many scenarios.
+- Often models trained on generic datasets like wikipedia, works well for many NLP tasks like Natural language understanding, text classification etc.
 
-- Training from scratch could take a lot of time and requires complex machine set up like GPUs.{{1}}
-
-
-`@script`
-
-
-
----
-## Popular pre-trained models
-
-```yaml
-type: "FullSlide"
-key: "6c3436ae32"
-```
-
-`@part1`
-1. GoogleNews-vectors-Negative-300 
-
-      - Trained on Google news, 300D (Dimension)
-
-2. glove-wiki-gigaword-100{{1}}
-
-      - Trained on wikipedia, 100D
+- Training from scratch could take a lot of time (days) and requires complex machine set up like GPUs.{{1}}
 
 
 `@script`

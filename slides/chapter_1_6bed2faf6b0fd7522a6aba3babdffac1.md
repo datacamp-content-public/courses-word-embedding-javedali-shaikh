@@ -156,11 +156,17 @@ key: "d8dfcbc853"
 ```
 
 `@part1`
-`api.info()`
+```
+api.info()
+```
 
-`api.info("word2vec-google-news-300")`
+```
+api.info("word2vec-google-news-300")
+```
 
-`api.load("wiki-en", return_path=True)`
+```
+api.load("wiki-en", return_path=True)
+```
 
 
 `@part2`

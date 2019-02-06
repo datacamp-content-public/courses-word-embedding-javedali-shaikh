@@ -160,7 +160,15 @@ key: "d8dfcbc853"
 `@part2`
 Retrieves information about all available datasets and models.
 
-{}
+{'base_dataset': 'Google News (about 100 billion words)',
+ 'checksum': 'a5e5354d40acb95f9ec66d5977d140ef',
+ 'file_name': 'word2vec-google-news-300.gz',
+ 'file_size': 1743563840,
+ 'license': 'not found',
+ 'num_records': 3000000,
+ 'parameters': {'dimension': 300},
+ 'parts': 1,
+}
 
 
 `@script`

@@ -97,7 +97,7 @@ center_content: false
    - Concurrency
    - Shared RAM and etc.
 
-For more info: _https://radimrehurek.com/gensim/models/keyedvectors.html_
+_For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_
 
 
 `@script`

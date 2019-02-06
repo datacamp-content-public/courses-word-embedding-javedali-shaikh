@@ -160,19 +160,30 @@ key: "d8dfcbc853"
 api.info()
 ```
 
+
+`@part2`
+Retrieves information about all available datasets and models.
+
+
+`@script`
+
+
+
+---
+## Useful methods of Gensim Downloader
+
+```yaml
+type: "TwoColumns"
+key: "1d7adaafb8"
+```
+
+`@part1`
 ```
 api.info("word2vec-google-news-300")
 ```
 
 
-```
-api.load("wiki-en", return_path=True)
-```
-
-
 `@part2`
-Retrieves information about all available datasets and models.
-
 {'base_dataset': 'Google News (about 100 billion words)',
  'checksum': 'a5e5354d40acb95f9ec66d5977d140ef',
  'file_name': 'word2vec-google-news-300.gz',
@@ -183,6 +194,26 @@ Retrieves information about all available datasets and models.
  'parts': 1,
 }
 
+
+`@script`
+
+
+
+---
+## Useful methods of Gensim Downloader
+
+```yaml
+type: "TwoColumns"
+key: "2a1b741c3e"
+```
+
+`@part1`
+```
+api.load("wiki-en", return_path=True)
+```
+
+
+`@part2`
 Downloads the dataset or model
 
 

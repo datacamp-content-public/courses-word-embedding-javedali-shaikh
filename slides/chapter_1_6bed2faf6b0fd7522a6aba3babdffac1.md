@@ -21,6 +21,22 @@ title: Data Scientist
 
 
 ---
+## What are Pre-trained models?
+
+```yaml
+type: "FullSlide"
+key: "137cf4178b"
+```
+
+`@part1`
+
+
+
+`@script`
+
+
+
+---
 ## Let's practice!
 
 ```yaml

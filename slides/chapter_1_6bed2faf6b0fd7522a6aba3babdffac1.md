@@ -78,7 +78,7 @@ key: "6c3436ae32"
 
 
 ---
-## KeyedVecors
+## KeyedVectors in gensim
 
 ```yaml
 type: "FullSlide"

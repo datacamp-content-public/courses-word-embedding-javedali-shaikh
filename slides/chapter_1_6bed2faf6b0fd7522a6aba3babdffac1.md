@@ -104,7 +104,7 @@ center_content: false
 
 
 ---
-## api.load()
+## Gensim downloader
 
 ```yaml
 type: "FullSlide"
@@ -115,7 +115,25 @@ center_content: false
 `@part1`
 Can load pre-trained models present in gensim data repository
 
+`import gensim.downloader as api`
+
 `model = api.load("word2vec-google-news-300")`
+
+
+`@script`
+
+
+
+---
+## Insert title here...
+
+```yaml
+type: "FullSlide"
+key: "a3d0cd26c5"
+```
+
+`@part1`
+
 
 
 `@script`

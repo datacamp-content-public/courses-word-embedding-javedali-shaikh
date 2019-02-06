@@ -29,9 +29,10 @@ key: "137cf4178b"
 ```
 
 `@part1`
-- Trained on large corpus like wikipedia, web.
+- Publicly available pre-trained models
+- Trained on large corpus like wikipedia, web.{{1}}
 
-- Created for multiple languages - EN, FR, ZH etc. {{1}}
+- Created for multiple languages - EN, FR, ZH etc. {{2}}
 
 
 `@script`

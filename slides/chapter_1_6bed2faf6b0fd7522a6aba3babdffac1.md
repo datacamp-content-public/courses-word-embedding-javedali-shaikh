@@ -159,11 +159,9 @@ key: "d8dfcbc853"
 ```
 api.info()
 ```
-
 ```
 api.info("word2vec-google-news-300")
 ```
-
 ```
 api.load("wiki-en", return_path=True)
 ```

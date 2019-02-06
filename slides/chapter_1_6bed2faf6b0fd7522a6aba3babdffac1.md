@@ -72,12 +72,12 @@ center_content: false
 
 - Advantages: {{1}}
 
-   - Faster load
-   - Smaller objects
-   - Concurrency
-   - Shared RAM and etc.
+   - loads faster
+   - Small in size{{2}}
+   - Concurrent vector queries {{3}}
+   - etc.{{4}}
 
-_For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_ {{2}}
+_For more info: https://radimrehurek.com/gensim/models/keyedvectors.html_ {{5}}
 
 
 `@script`

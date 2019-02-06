@@ -29,7 +29,7 @@ key: "137cf4178b"
 ```
 
 `@part1`
-- Trained on large corpus like wikipedia, web                            
+- Trained on large corpus like wikipedia, web.                        
 
 - Created for multiple languages - EN, FR, ZH etc.
 
@@ -47,7 +47,8 @@ key: "f1000300fa"
 ```
 
 `@part1`
-- Often models trained on generic datasets like wikipedia, works well for many scenarios
+- Often models trained on generic datasets like wikipedia, works well for many scenarios.
+
 - Training from scratch could take a lot of time and requires complex machine set up like GPUs.
 
 

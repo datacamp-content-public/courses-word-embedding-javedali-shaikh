@@ -21,7 +21,7 @@ title: Data Scientist
 
 
 ---
-## What are Pre-trained models?
+## Pre-trained models
 
 ```yaml
 type: "FullSlide"

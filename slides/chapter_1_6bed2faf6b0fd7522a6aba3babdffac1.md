@@ -201,7 +201,7 @@ Downloads the dataset or model to local machine.
 
 
 `@script`
-
+Also, if you are interested to download the dataset or model to your local machine, you can call the load method, pass the name of the dataset or model and then set the 'return_path' parameter equal to true. This will load the dataset or the model to your local machine.
 
 
 ---

@@ -217,7 +217,7 @@ api.load("wiki-en", return_path=True)
 
 
 `@part2`
-Downloads the dataset or model
+Downloads the dataset or model to local machine.
 
 
 `@script`

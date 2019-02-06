@@ -51,9 +51,9 @@ key: "6c3436ae32"
 
       - Trained on Google news, 300D (Dimension)
 
-2. glove.6B
+2. glove-wiki-gigaword-100
 
-      - Trained on wikipedia and Gigaword, 50D, 100D, 200D and 300D.
+      - Trained on wikipedia, 100D
 
 
 `@script`

@@ -9,6 +9,7 @@ pip3 install matplotlib==2.2.2
 pip3 install scikit-learn==0.19.2
 pip3 install numpy==1.15.0
 pip3 install gensim
+pip3 install nltk
 
 # Include datasets in the image
 

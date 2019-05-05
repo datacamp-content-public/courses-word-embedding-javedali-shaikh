@@ -9,10 +9,12 @@ pip3 install matplotlib==2.2.2
 pip3 install scikit-learn==0.19.2
 pip3 install numpy==1.15.0
 pip3 install gensim
-pip install nltk
+pip3 install nltk
 
 # Include datasets in the image
 
 # DATADIR=/usr/local/share/datasets
 # mkdir -p $DATADIR
 # wget -O $DATADIR/iris.csv http://s3.amazonaws.com/assets.datacamp.com/staging/course_2406/datasets/iris.csv
+nltk.download('punkt')
+nltk.download('abc')

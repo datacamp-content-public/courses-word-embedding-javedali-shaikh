@@ -40,7 +40,6 @@ Pass the word as positive to find its most similar.
 ```{python}
 import gensim
 import nltk
-nltk.download('abc')
 from nltk.corpus import abc
 ```
 

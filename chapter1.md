@@ -33,7 +33,8 @@ In this exercise, we are going to load the gensim package we introduced in last 
 3. Find the most similar word for word 'Man'.
 
 `@hint`
-
+You need to pass the len of 'sentences' as parameter to train method
+Pass the word as positive to find its most similar.
 
 `@pre_exercise_code`
 ```{python}
@@ -42,7 +43,12 @@ import gensim
 
 `@sample_code`
 ```{python}
+sentences = [['Man is a king'], ['Women is queen'], ['Man and women are together']]
+model = gensim.models.____(sentences)
+model.____(____, total_examples=len(____))
 
+w1 = "Man"
+model.wv.____(positive=____)
 ```
 
 `@solution`

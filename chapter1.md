@@ -43,21 +43,22 @@ import gensim
 
 `@sample_code`
 ```{python}
-sentences = [['Man is a king'], ['Women is queen'], ['Man and women are together']]
+sentences = [['man is a king. man and women live together.'], ['women is queen and they live together'], ['man and women are meant to live with each other']]
+
 model = gensim.models.____(sentences)
 model.____(____, total_examples=len(____))
 
-w1 = "Man"
+w1 = "man"
 model.wv.____(positive=____)
 ```
 
 `@solution`
 ```{python}
-sentences = [['Man is a king'], ['Women is queen'], ['Man and women are together']]
+sentences = [['man is a king. man and women live together.'], ['women is queen and they live together'], ['man and women are meant to live with each other']]
 model = gensim.models.Word2Vec(sentences)
 model.train(sentences, total_examples=len(sentences))
 
-w1 = "Man"
+w1 = "man"
 model.wv.most_similar(positive=w1)
 ```
 

@@ -41,12 +41,12 @@ Pass the word as positive to find its most similar.
 import gensim
 import ntlk
 nltk.download('abc')
-
-from nltk.corpus import abc
 ```
 
 `@sample_code`
 ```{python}
+from nltk.corpus import abc
+
 sentences = [['man is a king. man and women live together.'], ['women is queen and they live together'], ['man and women are meant to live with each other']]
 model = gensim.models.Word2Vec(abc.sents())
 # model.train(sentences, total_examples=len(sentences))
@@ -56,6 +56,8 @@ model.wv.most_similar('science')
 
 `@solution`
 ```{python}
+from nltk.corpus import abc
+
 sentences = [['man is a king. man and women live together.'], ['women is queen and they live together'], ['man and women are meant to live with each other']]
 model = gensim.models.Word2Vec(abc.sents())
 # model.train(sentences, total_examples=len(sentences))

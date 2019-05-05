@@ -95,7 +95,7 @@ center_content: true
 
 `@part1`
 ```
-model = gensim.models.KeyedVectors.load_word2vec_format
+model = gensim.models.KeyedVectors.
          ('./data/GoogleNews-vectors-negative300.bin.gz', binary=True)
 ```{{1}}
 

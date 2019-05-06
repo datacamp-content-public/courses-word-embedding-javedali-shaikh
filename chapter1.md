@@ -49,7 +49,7 @@ from nltk.corpus import abc
 ```{python}
 sentences = [['man is a king. man and women live together.'], ['women is queen and they live together'], ['man and women are meant to live with each other']]
 model = gensim.models.Word2Vec(abc.sents())
-# model.train(sentences, total_examples=len(sentences))
+model.train(sentences, total_examples=len(abc.sents()), epoch=1)
 
 model.wv.most_similar('science')
 ```
